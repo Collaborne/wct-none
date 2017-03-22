@@ -1,6 +1,6 @@
 {
   "name": "wct-none",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "WCT plugin for not running a browser",
   "main": "src/index.js",
   "scripts": {
@@ -25,6 +25,5 @@
   "devDependencies": {
     "eslint": "^3.18.0"
   },
-  "wct-plugin": {
-  }
+  "wct-plugin": {}
 }
