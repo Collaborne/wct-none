@@ -1,4 +1,4 @@
-# wct-none
+# wct-none [![Build Status](https://travis-ci.org/Collaborne/wct-none.svg?branch=master)](https://travis-ci.org/Collaborne/wct-none)
 
 A plugin for [web-component-tester](https://github.com/Polymer/web-component-tester) that provides a dummy browser.
 
