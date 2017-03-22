@@ -1,5 +1,7 @@
 # wct-none
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Collaborne/wct-none.svg)](https://greenkeeper.io/)
+
 A plugin for [web-component-tester](https://github.com/Polymer/web-component-tester) that provides a dummy browser.
 
 The intent for this plugin is to make it possible to start the WCT webserver, but not waste any resources on starting a browser for tests. Instead the user can start whatever testing/debugging environment they want manually.
