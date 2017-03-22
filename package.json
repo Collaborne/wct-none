@@ -1,0 +1,30 @@
+{
+  "name": "wct-none",
+  "version": "0.0.1",
+  "description": "WCT plugin for not running a browser",
+  "main": "src/index.js",
+  "scripts": {
+    "prepublish": "eslint src test",
+    "test": "echo 'No tests yet'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Collaborne/wct-none.git"
+  },
+  "keywords": [
+    "wct",
+    "web-component-tester",
+    "wct-plugin"
+  ],
+  "author": "Collaborne B.V. <opensource@collaborne.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Collaborne/wct-none/issues"
+  },
+  "homepage": "https://github.com/Collaborne/wct-none#readme",
+  "devDependencies": {
+    "eslint": "^3.18.0"
+  },
+  "wct-plugin": {
+  }
+}
