@@ -8,11 +8,13 @@ The intent for this plugin is to make it possible to start the WCT webserver, bu
 
 This examples show hows to use [Visual Studio Code](https://code.visualstudio.com) and the [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) plugin to debug a component's test.
 
-1. Install the `wct-none` plugin into the project
+1. Install `web-component-tester` and the `wct-none` plugin into the project
 
    ```sh
-   npm install --save-dev wct-none
+   npm install --save-dev web-component-tester wct-none
    ```
+   
+   It is safe to save the plugin as development dependency in `package.json`, it will do nothing unless explicitly activated.
 
 2. Create or modify `.vscode/launch.json` in the project
 
