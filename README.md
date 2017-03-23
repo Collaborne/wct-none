@@ -51,13 +51,17 @@ This examples show hows to use [Visual Studio Code](https://code.visualstudio.co
 
    _Note that you must replace `COMPONENT_NAME` in the URL for Chrome, and `path/to/tests` with the path to the root of the test suite._
 
-3. Launch the 'Run wct' configuration
+3. Enable the `debug.allowBreakpointsEverywhere` setting in the user or workspace preferences
+
+   This makes it possible to set breakpoints everywhere, and let's Chrome work out how to best do that.
+
+4. Launch the 'Run wct' configuration
 
    This will log an error about not being able to connect to 127.0.0.1:4444, which can be ignored. PR's welcome :)
 
-4. Launch the 'Run chrome for wct' configuration
+5. Launch the 'Run chrome for wct' configuration
 
-5. Set breakpoints etc inside Visual Studio
+6. Set breakpoints etc inside Visual Studio
 
 ## License
 
