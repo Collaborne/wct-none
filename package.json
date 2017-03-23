@@ -1,6 +1,6 @@
 {
   "name": "wct-none",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "WCT plugin for not running a browser",
   "main": "src/index.js",
   "scripts": {
