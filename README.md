@@ -31,7 +31,8 @@ This examples show hows to use [Visual Studio Code](https://code.visualstudio.co
                     "--plugin", "none",
                     "--webserver-port", "2000",
                     "--expanded",
-                    "--simpleOutput"
+                    "--simpleOutput",
+                    "path/to/tests"
                 ]
             },
             {
@@ -46,7 +47,7 @@ This examples show hows to use [Visual Studio Code](https://code.visualstudio.co
    }
    ```
 
-   _Note that you must replace `COMPONENT_NAME` in the URL for Chrome._
+   _Note that you must replace `COMPONENT_NAME` in the URL for Chrome, and `path/to/tests` with the path to the root of the test suite._
 
 3. Launch the 'Run wct' configuration
 
