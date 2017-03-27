@@ -4,6 +4,8 @@ A plugin for [web-component-tester](https://github.com/Polymer/web-component-tes
 
 The intent for this plugin is to make it possible to start the WCT webserver, but not waste any resources on starting a browser for tests. Instead the user can start whatever testing/debugging environment they want manually.
 
+Learn more about the plugin in this [blog post](https://medium.com/collaborne-engineering/debug-polymer-tests-with-vs-code-7646d66d0608#.8wa43oiny).
+
 ## Example using Visual Studio as debugger
 
 This examples show hows to use [Visual Studio Code](https://code.visualstudio.com) and the [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) plugin to debug a component's test.
