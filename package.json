@@ -4,7 +4,8 @@
   "description": "WCT plugin for not running a browser",
   "main": "src/index.js",
   "scripts": {
-    "prepublish": "eslint src test",
+    "prepublish": "npm run lint",
+    "lint": "eslint src",
     "test": "echo 'No tests yet'"
   },
   "repository": {
@@ -23,7 +24,7 @@
   },
   "homepage": "https://github.com/Collaborne/wct-none#readme",
   "devDependencies": {
-    "eslint": "^3.18.0"
+    "eslint": "^6.2.1"
   },
   "wct-plugin": {}
 }
