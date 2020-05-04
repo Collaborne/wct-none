@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/Collaborne/wct-none#readme",
   "devDependencies": {
-    "eslint": "^6.2.1"
+    "eslint": "^6.8.0"
   },
   "wct-plugin": {}
 }
